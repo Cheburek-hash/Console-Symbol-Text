@@ -11,9 +11,8 @@ ct = ConsoleText()                        #create object
 
 ct.load_font('./fonts/font.ttf', size=15) #load any font
 
-ct.text('hello!')                         #load your text
-
-ct.render()                               #render your text
+ct.text('hello!')
+ct.text('World!', y=-5,fields=0.8)        #load your text
 
 ct.display()                              #display your text at console
 
